@@ -45,4 +45,7 @@ body {
   cursor: pointer;
   transform: translateY(-50%);
 }
+.copy-icon:hover {
+  color: #826afb;
+}
 
