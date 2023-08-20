@@ -76,5 +76,8 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
 }
+.generate-button:hover {
+  background-color: #2F4F4F;
+}
 
 
