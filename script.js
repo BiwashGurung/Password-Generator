@@ -6,3 +6,9 @@ const passwordInput = document.querySelector(".password-box input"),
 
 
 let allCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789^!$%&|[](){}:;.,*+-#@<>~";
+
+
+const generatePassword = () => {
+  let newPassword = "";
+
+};
