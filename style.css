@@ -46,6 +46,11 @@ body {
   transform: translateY(-50%);
 }
 .copy-icon:hover {
-  color: #826afb;
+  color: #191970;
+}
+.wrapper .range-box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
