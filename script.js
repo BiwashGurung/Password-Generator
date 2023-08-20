@@ -16,5 +16,7 @@ const generatePassword = () => {
     let randomNumbers = Math.floor(Math.random() * allCharacters.length);
     newPassword += allCharacters[randomNumbers];
   }
+  passwordInput.value = newPassword;
+  copyIcon.classList.replace("uil-file-check-alt", "uil-copy");
 
 };
