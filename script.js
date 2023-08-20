@@ -11,4 +11,10 @@ let allCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456
 const generatePassword = () => {
   let newPassword = "";
 
+
+  for (let i = 0; i < rangeInput.value; i++) {
+    let randomNumbers = Math.floor(Math.random() * allCharacters.length);
+    newPassword += allCharacters[randomNumbers];
+  }
+
 };
